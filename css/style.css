@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(232, 245, 254);
+  font-family:'Times New Roman', Times, serif;
+}
+
+h1,
+h2,
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width:1000px ;
+  margin: 0 auto;
+  /* outline: red 1px solid; */
+}
+
+ol{
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+.inner{
+  /* outline: 1px blue solid; */
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px 0 16px 0;
+}
+
+/* header */
+header {
+  padding-top: 40px;
+}
+
+/* hero */
+.hero img{
+  width: 100%;
+}
+
+/* index */
+#index {
+  background-color: #fff;
+  margin-top: 64px;
+}
+
+#index h1{
+ margin-bottom: 16px;
+}
+
+#index li+li{
+  margin-top: 24px;
+}
+
+/* detail */
+#detail img{
+  width: 40%;
+  object-fit: cover;
+}
+
+#detail .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#detail h2,
+h1{
+  margin-bottom: 16px;
+}
+
+.text{
+  margin-left: 48px;
+}
+
+#detail table{
+  text-align: left;
+  border-top: 1px rgb(180, 180, 180) solid;
+  border-bottom: 1px rgb(180, 180, 180) solid;
+  padding: 16px 0;
+}
+
+.title {
+  font-size: 16px;
+}
+
+#detail td{
+  font-size: 14.4px;
+  padding-left: 16px;
+}
+
+#detail th{
+  font-weight: normal;
+}
+
+#detail p{
+  font-size: 14.4px;
+  line-height: 1.4;
+  padding: 16px 0;
+}
+
+#detail a{
+  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* footer */
+footer{
+  margin-top: 40px;
+}
+
+@media screen and (max-width:1024px){
+  .container{
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+
+  .inner{
+    /* outline: 1px blue solid; */
+    width: calc(100% - 64px) ;
+    margin: 0 auto;
+  }
+
+  #detail .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #detail img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .text{
+    margin: 32px 0;
+  }
+
+  #detail table{
+    text-align: left;
+    border-top: 1px rgb(180, 180, 180) solid;
+    border-bottom: 1px rgb(180, 180, 180) solid;
+    padding: 16px 0;
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
